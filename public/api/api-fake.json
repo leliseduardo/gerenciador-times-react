@@ -1,0 +1,289 @@
+{
+  "medicos": [
+    {
+      "id": 1,
+      "registro": "111111",
+      "login": "test2",
+      "senha": "123456",
+      "nome": "Teste 2",
+      "dataNascimento": "1524-12-24",
+      "email": "test2@test.com",
+      "cpf": "11111111111",
+      "telefone": "1111111111",
+      "logradouro": "Estrada da Afeiteira",
+      "numero": "111",
+      "complemento": "Apartamento 2000",
+      "bairro": "Teste",
+      "cidade": "Sines",
+      "uf": "CV",
+      "cep": "111111111"
+    },
+    {
+      "id": 2,
+      "registro": "111111",
+      "login": "test3",
+      "senha": "123456",
+      "nome": "Teste 3",
+      "dataNascimento": "1524-12-24",
+      "email": "test3@test.com",
+      "cpf": "11111111111",
+      "telefone": "1111111111",
+      "logradouro": "Estrada da Afeiteira",
+      "numero": "111",
+      "complemento": "Apartamento 2000",
+      "bairro": "Teste",
+      "cidade": "Sines",
+      "uf": "CV",
+      "cep": "111111111"
+    }
+  ],
+  "tecnicos": [
+    {
+      "id": 1,
+      "dataContratacao": "2022-10-01",
+      "dataDemissao": "2022-11-01",
+      "login": "test4",
+      "senha": "123456",
+      "nome": "Teste 4",
+      "dataNascimento": "1524-12-24",
+      "email": "test4@test.com",
+      "cpf": "11111111111",
+      "telefone": "1111111111",
+      "logradouro": "Estrada da Afeiteira",
+      "numero": "111",
+      "complemento": "Apartamento 2000",
+      "bairro": "Teste",
+      "cidade": "Sines",
+      "uf": "CV",
+      "cep": "111111111"
+    },
+    {
+      "id": 2,
+      "dataContratacao": "2022-11-01",
+      "dataDemissao": null,
+      "login": "test4",
+      "senha": "123456",
+      "nome": "Teste 4",
+      "dataNascimento": "1524-12-24",
+      "email": "test4@test.com",
+      "cpf": "11111111111",
+      "telefone": "1111111111",
+      "logradouro": "Estrada da Afeiteira",
+      "numero": "111",
+      "complemento": "Apartamento 2000",
+      "bairro": "Teste",
+      "cidade": "Sines",
+      "uf": "CV",
+      "cep": "111111111"
+    }
+  ],
+  "jogadores": [
+    {
+      "id": 1,
+      "nacionalidade": "br",
+      "altura": "1.70",
+      "peso": 70,
+      "login": "vascodaGama",
+      "senha": "123456",
+      "nome": "Vasco da Gama",
+      "dataNascimento": "1524-12-24",
+      "email": "vascodagama.pt.org",
+      "cpf": "11111111111",
+      "telefone": "1111111111",
+      "logradouro": "Estrada da Afeiteira",
+      "numero": "111",
+      "complemento": "Apartamento 2000",
+      "bairro": "Vasco da gama",
+      "cidade": "Sines",
+      "uf": "CV",
+      "cep": "111111111"
+    },
+    {
+      "id": 2,
+      "nacionalidade": "pt",
+      "altura": "1.54",
+      "peso": 85,
+      "login": "test",
+      "senha": "123456",
+      "nome": "Teste 1",
+      "dataNascimento": "1524-12-24",
+      "email": "test@test.com",
+      "cpf": "11111111111",
+      "telefone": "1111111111",
+      "logradouro": "Estrada da Afeiteira",
+      "numero": "111",
+      "complemento": "Apartamento 2000",
+      "bairro": "Teste",
+      "cidade": "Sines",
+      "uf": "CV",
+      "cep": "111111111"
+    }
+  ],
+  "lesoes": [
+    {
+      "id": 1,
+      "medico": 1,
+      "jogador": 1,
+      "nome": "Adutor",
+      "gravidade": 4,
+      "tratamentoIndicado": "Tratar",
+      "dataInicio": "2022-10-01",
+      "dataFim": "2022-11-01"
+    },
+    {
+      "id": 2,
+      "medico": 1,
+      "jogador": 2,
+      "nome": "Metatarso",
+      "gravidade": 8,
+      "tratamentoIndicado": "Tratar",
+      "dataInicio": "2022-11-01",
+      "dataFim": null
+    },
+    {
+      "id": 3,
+      "medico": 2,
+      "jogador": 1,
+      "nome": "Metatarso",
+      "gravidade": 8,
+      "tratamentoIndicado": "Tratar",
+      "dataInicio": "2022-11-01",
+      "dataFim": "2022-11-31"
+    }
+  ],
+  "posicoes": [
+    {
+      "id": 1,
+      "nome": "Goleiro",
+      "areaCampo": "Gol",
+      "ladoCampo": "MIDDLE",
+      "sigla": "GOL"
+    },
+    {
+      "id": 2,
+      "nome": "Zagueiro",
+      "areaCampo": "Defesa",
+      "ladoCampo": "LEFT",
+      "sigla": "CBL"
+    },
+    {
+      "id": 3,
+      "nome": "Zagueiro",
+      "areaCampo": "Defesa",
+      "ladoCampo": "RIGTH",
+      "sigla": "CBR"
+    },
+    {
+      "id": 4,
+      "nome": "Lateral",
+      "areaCampo": "Defesa",
+      "ladoCampo": "LEFT",
+      "sigla": "LBL"
+    },
+    {
+      "id": 5,
+      "nome": "Lateral",
+      "areaCampo": "Defesa",
+      "ladoCampo": "RIGTH",
+      "sigla": "LBR"
+    },
+    {
+      "id": 6,
+      "nome": "Volante",
+      "areaCampo": "MEIO",
+      "ladoCampo": "MIDDLE",
+      "sigla": "CDM"
+    },
+    {
+      "id": 7,
+      "nome": "Meia",
+      "areaCampo": "MEIO",
+      "ladoCampo": "LEFT",
+      "sigla": "MDL"
+    },
+    {
+      "id": 8,
+      "nome": "Meia",
+      "areaCampo": "MEIO",
+      "ladoCampo": "RIGTH",
+      "sigla": "MDR"
+    },
+    {
+      "id": 9,
+      "nome": "Meia",
+      "areaCampo": "MEIO",
+      "ladoCampo": "MIDDLE",
+      "sigla": "CAM"
+    },
+    {
+      "id": 10,
+      "nome": "Ponta",
+      "areaCampo": "Ataque",
+      "ladoCampo": "LEFT",
+      "sigla": "LW"
+    },
+    {
+      "id": 11,
+      "nome": "Ponta",
+      "areaCampo": "Ataque",
+      "ladoCampo": "RIGTH",
+      "sigla": "RW"
+    },
+    {
+      "id": 12,
+      "nome": "Segundo Atacante",
+      "areaCampo": "Ataque",
+      "ladoCampo": "MIDDLE",
+      "sigla": "SA"
+    },
+    {
+      "id": 13,
+      "nome": "Atacante",
+      "areaCampo": "Ataque",
+      "ladoCampo": "MIDDLE",
+      "sigla": "ST"
+    }
+  ],
+  "partidas": [
+    { "id": 1, "data": "2022-10-01", "horario": "19:00", "placar": "1x0" },
+    { "id": 2, "data": "2022-11-01", "horario": "19:00", "placar": "3x0" },
+    { "id": 3, "data": "2022-11-10", "horario": "20:30", "placar": "0x1" },
+    { "id": 4, "data": "2022-11-25", "horario": "16:30", "placar": "0x3" }
+  ],
+  "temporadas": [
+    {
+      "id": 1,
+      "descricao": "Temporada 2022",
+      "dataDeInicio": "2022-01-01",
+      "dataFim": "2022-12-01"
+    },
+    {
+      "id": 2,
+      "descricao": "Temporada 2023",
+      "dataDeInicio": "2023-01-01",
+      "dataFim": "2023-12-01"
+    }
+  ],
+  "campeonatos": [
+    {
+      "id": 1,
+      "nome": "Serie b",
+      "dataDeInicio": "2022-01-01",
+      "dataFim": "2022-12-01",
+      "campeao": "Vasco da Gama"
+    },
+    {
+      "id": 2,
+      "nome": "Serie A",
+      "dataDeInicio": "2023-01-01",
+      "dataFim": "2023-12-01",
+      "campeao": null
+    }
+  ],
+  "equipeAdversaria": [
+    { "id": 1, "nome": "Cruzeiro" },
+    { "id": 2, "nome": "Ponte Preta" },
+    { "id": 3, "nome": "Inominavel" },
+    { "id": 4, "nome": "" }
+  ]
+}
